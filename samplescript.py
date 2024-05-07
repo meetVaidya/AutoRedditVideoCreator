@@ -1,0 +1,11 @@
+from tts_voice import tts
+
+text = 'I lost a baby in the second trimester. It was unbearably heartbreaking. I had to go in and deliver a baby that was gone and on top of the grief i was battling i had to explain and console my young child who wanted a sister so badly and kept asking why she went away.  My fil and mil were such assholes that weekend acting like the loss and proceedure wasnt a big deal harassing my husband to come visit and when he didnt, they showed up on our doorstep. It was a big fight and both sides are still upset about that weekend.   I have one of those birthflower bouquet prints on my wall,  it has the birth flowers of the kids i now have and forget me nots for the baby we lost.  My in laws roll eyes, make faces and make comments at it and any time i acknowledge the baby we lost. My mil had made snarky comments to others any time i include the memory of the baby we lost like that. Weve fought with her about it. Its a part of the reason we have been low contact. I just got a wedding invitation from a cousin on her side that weve not seen in years.  It was for my husband,  myself and our 3 kids. I only have 2 living kids... a family member said that was weird bc they know the cousin called mil to ask how many kids we have since they didnt know and it must have been a mistake... but another family member said she just knows she did that to hurt me, mil says she "loves to play the villain especially with her"  knowing her and what she has done in the past to be intentionally hurtful and laugh while claiming she thought thats what we wanted hubs and i would bet money that shes over there smirking and waiting to say she thought we wanted our dead baby acknowledged. We were waiting to go full NC until after mothers day bc mils mom passed away last month and i thought it would be too hurtful for her to have MD bc without her mom, son and grandkids.. WIBTAH if i just went full on NC now, A week before? update we blocked her on everything. I told my husband i think i need to cut her out immediately and he said lets do it. The air already feels easier to breathe.'
+voice = "en_us_001"
+
+# arguments:
+#   - input text
+#   - vocie which is used for the audio
+#   - output file name
+#   - play sound after generating the audio
+tts(text, voice, "output1.mp3", play_sound=False)
