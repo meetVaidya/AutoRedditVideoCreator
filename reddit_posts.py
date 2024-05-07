@@ -1,8 +1,8 @@
 import praw
 import json
 
-reddit = praw.Reddit(client_id='Gx3mUcqU7HgYCokSJXZ8ag',
-                     client_secret='dosn4nxBd8sMJ792_D2YbyddU4J9OA',
+reddit = praw.Reddit(client_id='YOUR_CLIENT_ID',
+                     client_secret='YOUR_CLIENT_SECRET',
                      user_agent='your_user_agent')
 
 # Specify the subreddit name
